@@ -1,0 +1,35 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .no-dot {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text {
+    color: #64748b;
+    font-size: 20px;
+  }
+  .logo {
+    height: 20px;
+    width: 20px;
+    margin-left: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .no-dot {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text {
+    color: #64748b;
+    font-size: 20px;
+  }
+  .logo {
+    height: 20px;
+    width: 20px;
+    margin-left: 85%;
+  }
+}
